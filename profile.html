@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food delivery service</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="title">
+    <a href="#" class="image"> <i class="fas fa-hotdog"></i> THE FOODIE EXPRESS </a>
+    <nav class="navbar">
+
+        <a href="#home">home</a>
+        <a href="#traits">about us</a>
+          <a href="#bar">menu</a>
+        <a href="#ratings">contact us</a>
+        <a href="#todayoffers">todayoffers</a>
+    </nav>
+    <div class="btns">
+        <div class="fas fa-bars" id="menu"></div>
+        <div class="fas fa-search" id="search"></div>
+        <div class="fas fa-shopping-cart" id="cart"></div>
+        <div class="fas fa-user" id="logininfo"></div>
+    </div>
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+    <div class="shopping-cart">
+      <h1>billing form</h1>
+        <div class="cart">
+            <i class="fas fa-trash"></i>
+            <img src="dosa.jpg" alt="">
+            <div class="info">
+                  <h3>masala dosa</h3>
+                <span class="amount">Rs.50/-</span>
+                <span class="qnty">qty : 1</span>
+
+            </div>
+        </div>
+        <div class="cart">
+            <i class="fas fa-trash"></i>
+            <img src="noodles.jpg" alt="">
+            <div class="info">
+                <h3>veg noodles</h3>
+                <span class="amount">Rs.79/-</span>
+                <span class="qnty">qty : 4</span>
+
+            </div>
+        </div>
+        <div class="cart">
+            <i class="fas fa-trash"></i>
+            <img src="italy.jpg" alt="">
+            <div class="info">
+                <h3>Gazpacho</h3>
+                <span class="amount">Rs.698/-</span>
+                <span class="qnty">qty : 1</span>
+
+            </div>
+        </div>
+        <div class="totalprice"> total : Rs.1,064/- </div>
+        <a href="#" class="btn">BUY NOW</a>
+    </div>
+    <form action="" class="login-form">
+        <h2>sign in</h2>
+        <input type="email" placeholder="your id" class="cart">
+        <input type="password" placeholder="your password" class="cart">
+        <p>forget password?<a href="#">go</a></p>
+        <p>create a account<a href="#">login</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+</header>
+<section class="home" id="home">
+    <div class="info">
+        <img src="download.jpg" alt="">
+        <h3>YOU CAN'T LIVE A FULL LIFE ON EMPTY STOMACH....</h3>
+        <p>Happiness is great food and great company</p>
+
+
+        <a href="#" class="btn">place a order</a>
+    </div>
+</section>
+<section class="traits" id="traits">
+    <h1 class="top"> <span> About us </span> </h1>
+    <div class="cartinfo">
+        <div class="cart">
+            <img src="food1.jpg" alt="">
+            <h3>delicious and complete meal</h3>
+            <p>eat your favourite dishes by placing orders!!! </p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+        <div class="cart">
+            <img src="delivery.jpg" alt="">
+            <h3>fast and trustworthy delivery</h3>
+            <p>a 24/7 service available for you and comes to you</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+        <div class="cart">
+            <img src="pay.jpg" alt="">
+            <h3>all kinds of payments </h3>
+            <p>cash,debit card,credit csart,upi payments are accepted</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+    </div>
+</section>
+
+<section class="bar" id="bar">
+    <h1 class="top"> <span> our Menu</span> </h1>
+    <div class="cartinfo">
+        <div class="cart">
+          <h1>AMERICAN FOOD</h1>
+          <p>have a american style food and have your food and enjoy your meal<p>
+            <img src="america1.jpg" alt="">
+           <button onclick="window.location.href='ameican.html'">
+            <a href="#" class="btn">items</a>
+</button>
+        </div>
+        <div class="cart">
+          <h1>chinese</h1>
+          <p>have a chinese style food and have your food and enjoy your meal<p>
+            <img src="chi.jpg" alt="">
+          <button onclick="window.location.href='chinese.html'">
+          <a href="#" class="btn">items</a>
+          </button>
+        </div>
+        <div class="cart">
+          <h1>indian</h1>
+          <p>have a indian style food and have your food and enjoy your meal<p>
+          <img src="in.jpg" alt="">
+          <button onclick="window.location.href='indian.html'">
+          <a href="#" class="btn">items</a>
+          </button>
+        </div>
+        <div class="cart">
+          <h1>italian</h1>
+          <p>have a italian style food and have your food and enjoy your meal<p>
+            <img src="ita.jpg" alt="">
+          <button onclick="window.location.href='italian.html'">
+          <a href="#" class="btn">items</a>
+          </button>
+        </div>
+        <div class="cart">
+          <h1>japanese</h1>
+          <p>have a japanese style food and have your food and enjoy your meal<p>
+          <img src="japan.jpg" alt="">
+          <button onclick="window.location.href='japanese.html'">
+          <a href="#" class="btn">items</a>
+          </button>
+        </div>
+    </div>
+</section>
+<section class="ratings" id="ratings">
+    <h1 class="top">  <span> contact us </span> </h1>
+    <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="tupe.jpg" alt="">
+              <p>Ratings by various customers</p>
+                <h1>Pooja</h1>
+               <h1>9876543210</h1>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <h1>Rahul</h1>
+                 <h1>9756854587</h1>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+    <h1>Hrithik</h1>
+                 <h1>8769875430</h1>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <h1>kareena</h1>
+                 <h1>6547658765</h1>
+                </div>
+                <div class="swiper-slide box">
+                    <h1>Mahesh</h1>
+                    <h1>08612345467</h1>
+                   </div>
+                   <div class="swiper-slide box">
+                       <h1>Arjun</h>
+                       <h1>9876789098</h1>
+                      </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="todayoffers" id="todayoffers">
+    <h1 class="top">  <span>Most Ordered Foods</span> </h1>
+    <div class="cartinfo">
+        <div class="cart">
+            <img src="srm.jpg" alt="">
+            <div class="info">
+                <div class="btns">
+                    <a href="#"> offer deals </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 2023 </a>
+                </div>
+                <h3>Burger</h3>
+                <p>10% off</p>
+                <a href="#" class="btn">BUY NOW</a>
+            </div>
+        </div>
+
+        <div class="cart">
+            <img src="pasta.jpg" alt="">
+            <div class="info">
+                <div class="btns">
+                    <a href="#">  offer deals </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 2023 </a>
+                </div>
+                <h3>pasta</h3>
+                <p>starts at Rs.199 only/-</p>
+                <a href="#" class="btn">BUY NOW</a>
+            </div>
+
+        </div>
+        <div class="cart">
+            <img src="rings.jpg" alt="">
+            <div class="info">
+                <div class="btns">
+                    <a href="#"> offer deals</a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 2023 </a>
+                </div>
+                <h3>potato rings</h3>
+                <p>Get a combo deal with pasta ....</p>
+                <a href="#" class="btn">BUY NOW</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="links">
+    <div class="cartinfo">
+        <div class="cart">
+            <h3> The Foodie Express <i class="fas fa-hotdog"></i> </h3>
+            <p>Enjoy your favourite meal.</p>
+            <div class="contact">
+              <p>Follow us::</p>
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+        </div>
+        <div class="cart">
+            <h3>contact</h3>
+            <a href="#" class="number"> <i class="fas fa-phone"></i> 9000001111 </a>
+            <a href="#" class="number"> <i class="fas fa-envelope"></i> coincent@gmail.com </a>
+        </div>
+        <div class="cart">
+            <h3>dragger</h3>
+            <a href="#" class="number"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#" class="number"> <i class="fas fa-arrow-right"></i> traits </a>
+            <a href="#" class="number"> <i class="fas fa-arrow-right"></i> menu </a>
+            <a href="#" class="number"> <i class="fas fa-arrow-right"></i> ratings</a>
+            <a href="#" class="number"> <i class="fas fa-arrow-right"></i> todayoffers</a>
+        </div>
+        <div class="cart">
+            <p>Follow us on social media accounts for latest updates</p>
+            <input type="username" placeholder="mobilenumber" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="image/payment.png" class="payment-img" alt="">
+        </div>
+    </div>
+    <div class="credit">Terms and   <span> Conditions </span> are applied</div>
+</section>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="java.js"></script>
+</body>
+</html>

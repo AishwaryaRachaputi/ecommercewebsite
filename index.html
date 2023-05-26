@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login page and sign in page</title>
+    <link rel="stylesheet" href="newstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="full-page">
+        <div class="sub-page">
+            <div class="navigation-bar">
+
+                <div class="logo">
+                    <a href='index.html'></a>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <div class="form-box">
+                        <div class="form">
+                            <form class="login-form">
+                                <center><h1 class="main-heading">Registration form</h1></center>
+				                <input type="text"placeholder="user name" name="name"/>
+                        <input type="email"placeholder="Email"/>
+				                <input type="password"placeholder="password"/>
+                        <input type="text"placeholder="Address"/>
+                        <input type="number"placeholder="Mobile number"/>
+                        <input type = "submit" value = "Submit">
+                           <p> login here</p>
+
+                           </form>
+                    <button onclick="window.location.href='profile.html'"><br>
+        <a href="#" class="btn"><h3>Register</h3></a>
+        </button>
+
+			             </div>
+	                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+const scriptURL ='https://script.google.com/macros/s/AKfycbxnAPi_wnBLoLOGhBxAJ_IYeLEQtsi7sMA1XZLzO8MKja0gSvBsUo9_zdS_GlFIN3PR/exec'
+
+const form = document.forms['form-data-sheet']
+
+form.addEventListener('submit',e=>{
+  e.preventDefault()
+  fetch(scriptURL,{
+    method:'POST',
+    body: new Form(form)
+  })
+  .then(response => alert(
+    "thank you for registering with us!!!"
+  ))
+  .catch(error=>console.error('Error!',error.message))
+})
+</script>
+</body>
+</html>
